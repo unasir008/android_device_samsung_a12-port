@@ -153,6 +153,9 @@ SELINUX_IGNORE_NEVERALLOWS := true
 # Symbols
 TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 
+# Symbols
+TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
+
 # Treble
 BOARD_VNDK_VERSION := current
 
