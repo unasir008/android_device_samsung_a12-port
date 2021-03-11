@@ -34,6 +34,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.sf.lcd_density=320
 
+# Hardware Acceleration
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    video.accelerate.hw=1 \
+    debug.sf.hw=1 \
+    debug.performance.tuning=1 \
+    debug.egl.profiler=1 \
+    debug.egl.hw=1 \
+    debug.composition.type=gpu
+
 # IMS
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
