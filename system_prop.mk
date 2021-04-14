@@ -100,3 +100,22 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.nohdcp=1 \
     persist.debug.wfd.enable=1 \
     persist.sys.wfd.virtual=0
+
+# Props from realme UI 2.0
+
+# Audio
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.camera.sound.forced=0 \
+    ro.audio.silent=0
+
+# Wlan
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    wifi.interface=wlan0 \
+    ro.mediatek.wlan.wsc=1 \
+    ro.mediatek.wlan.p2p=1 \
+    mediatek.wlan.ctia=0
+
+# USB Charge only function
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.sys.usb.charging.only=yes \
+    ro.sys.usb.bicr=no
