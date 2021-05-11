@@ -156,6 +156,7 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 # Wi-Fi
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay \
+    wpa_supplicant.conf \
     WifiOverlay
 
 # APNs
