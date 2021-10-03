@@ -40,7 +40,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" false
 
 # Copyright headers and guards
-write_headers "RMX2020"
+write_headers "RMX2185"
 
 # The standard blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
