@@ -155,7 +155,7 @@ TARGET_LD_SHIM_LIBS := /system/lib/libshowlogo.so|libshim_showlogo.so
 BOARD_VNDK_VERSION := current
 
 #DPI
-TARGET_SCREEN_DENSITY := 423
+TARGET_SCREEN_DENSITY := 440
 
 # Mtk FM
 BOARD_HAVE_MTK_FM := true
