@@ -170,8 +170,5 @@ PRODUCT_PACKAGES += \
 
 # ImsInit hack
 PRODUCT_PACKAGES += \
-    ImsInit 
+    ImsInit
 
-# MediaTek FMRadio
-PRODUCT_PACKAGES += \
-    FMRadio
