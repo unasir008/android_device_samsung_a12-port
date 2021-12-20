@@ -132,3 +132,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.config.low_ram=false \
     ro.lmk.log_stats=true
+
+# One Handed Mode
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.support_one_handed_mode=true
