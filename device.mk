@@ -48,6 +48,9 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# Extra VNDK Versions
+PRODUCT_EXTRA_VNDK_VERSIONS := 30
+
 # GcamGo
 PRODUCT_PACKAGES += \
     GoogleCameraGo
