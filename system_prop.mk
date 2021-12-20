@@ -139,3 +139,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.sys.usb.charging.only=yes \
     ro.sys.usb.bicr=no
+
+# LMKD
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.config.low_ram=false \
+    ro.lmk.log_stats=true
