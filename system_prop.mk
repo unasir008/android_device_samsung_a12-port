@@ -140,3 +140,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # System
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.binary_xml=false
+
+# Charger
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.charger.enable_suspend=true
