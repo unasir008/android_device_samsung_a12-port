@@ -728,4 +728,6 @@
 	<!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
 	
+    <!-- Exempt ImsService from privacy (location) indicators -->
+    <string name="config_systemAudioIntelligence" translatable="false">com.mediatek.ims</string>
 </resources>
