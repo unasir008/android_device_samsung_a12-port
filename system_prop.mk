@@ -136,3 +136,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # One Handed Mode
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.support_one_handed_mode=true
+
+# System
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    persist.sys.binary_xml=false
