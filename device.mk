@@ -56,6 +56,9 @@ PRODUCT_PACKAGES += \
 # Extra VNDK Versions
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+
 # GcamGo
 PRODUCT_PACKAGES += \
     GoogleCameraGo
