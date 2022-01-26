@@ -149,3 +149,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.sf.color_saturation=1.1 \
     persist.sys.sf.native_mode=0
+
+# Renderengine
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.renderengine.backend=skiaglthreaded
+
