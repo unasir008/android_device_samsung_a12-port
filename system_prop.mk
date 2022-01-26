@@ -144,3 +144,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Charger
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.charger.enable_suspend=true
+
+# Colors
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.sf.color_saturation=1.1 \
+    persist.sys.sf.native_mode=0
