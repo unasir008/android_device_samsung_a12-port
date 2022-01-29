@@ -20,9 +20,9 @@
             #config 768MB zramsize with ramsize 1GB
             echo 805306368 > /sys/block/zram0/disksize
         elif [ $MemTotal -le 2097152 ]; then
-            #config 1.25GB zram size with memory less than 2 GB
+            #config 1.41GB zram size with memory less than 2 GB
             echo zstd > /sys/block/zram0/comp_algorithm
-            echo 1342177280 > /sys/block/zram0/disksize
+            echo 1513975971 > /sys/block/zram0/disksize
             echo 180 > /proc/sys/vm/swappiness
             echo 0 > /proc/sys/vm/direct_swappiness
             echo 15 > /proc/sys/vm/watermark_scale_factor
@@ -30,9 +30,9 @@
             echo 10240 > /proc/sys/vm/min_free_kbytes
             #endif
         elif [ $MemTotal -le 3145728 ]; then
-            #config 1.6GB zram size with memory less than 3 GB
+            #config 1.71GB zram size with memory less than 3 GB
             echo zstd > /sys/block/zram0/comp_algorithm
-            echo 1717986918 > /sys/block/zram0/disksize
+            echo 1836098519 > /sys/block/zram0/disksize
             echo 180 > /proc/sys/vm/swappiness
             echo 0 > /proc/sys/vm/direct_swappiness
         elif [ $MemTotal -le 4194304 ]; then
