@@ -1,4 +1,4 @@
-# All unpinned blobs are from RMX2185_11_C.05
+# All unpinned blobs are from RMX2185_11_C.10
 
 # APNs
 etc/apns-conf.xml:product/etc/apns-conf.xml
@@ -53,3 +53,6 @@ bin/kpoc_charger
 etc/init/kpoc_charger.rc
 lib/libshowlogo.so
 
+# Mtk FM Radio
+-product/lib/libfmjni.so
+-product/lib64/libfmjni.so
