@@ -167,6 +167,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Dex
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+     dalvik.vm.dex2oat64.enabled=true \
      pm.dexopt.install=speed-profile \
      pm.dexopt.bg-dexopt=speed-profile \
      pm.dexopt.boot=verify \
