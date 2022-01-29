@@ -154,3 +154,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.renderengine.backend=skiaglthreaded
 
+
+# Soc
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+     ro.soc.manufacturer=MediaTek \
+     ro.soc.model=MT6765G
