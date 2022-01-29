@@ -92,6 +92,9 @@ on boot
 on property:sys.boot_completed=1
     setprop vendor.oppo.biometrics.fingerprint.boot_completed 1
 
+    # Update fastcharge firmware
+    write /proc/fastchg_fw_update 1
+
 on property:sys.boot_completed=1
     # Toggle airplane mode on and off on boot to enable volte.
     # This hack needs ImsInit commit to request ims on boot to work properly
