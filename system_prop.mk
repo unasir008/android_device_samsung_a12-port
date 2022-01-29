@@ -164,3 +164,12 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
      debug.hwui.use_hint_manager=true \
      debug.hwui.target_cpu_time_percent=30
+
+# Dex
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+     pm.dexopt.install=speed-profile \
+     pm.dexopt.bg-dexopt=speed-profile \
+     pm.dexopt.boot=verify \
+     pm.dexopt.first-boot=quicken \
+     dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5 \
+     dalvik.vm.dex2oat-threads=6
