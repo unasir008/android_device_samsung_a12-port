@@ -86,6 +86,7 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/aarch
 TARGET_KERNEL_CROSS_COMPILE_ARM32_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-7.5/bin/arm-linux-gnueabihf-
 TARGET_KERNEL_CONFIG := karashi_defconfig
 TARGET_KERNEL_SOURCE := kernel/realme/mt6765G
+TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := r383902
 
 BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
