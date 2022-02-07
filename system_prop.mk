@@ -148,8 +148,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Renderengine
 PRODUCT_PRODUCT_PROPERTIES += \
-    debug.renderengine.backend=skiaglthreaded
-
+    graphics.gpu.profiler.support=true \
+    renderthread.skia.reduceopstasksplitting=true \
+    debug.hwui.renderer=skiavk \
+    ro.hwui.use_vulkan=true
 
 # Soc
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
