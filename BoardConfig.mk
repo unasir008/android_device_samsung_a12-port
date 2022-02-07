@@ -158,3 +158,6 @@ TARGET_SCREEN_DENSITY := 440
 
 # Mtk FM
 BOARD_HAVE_MTK_FM := true
+
+# Graphics
+TARGET_USES_VULKAN := true
