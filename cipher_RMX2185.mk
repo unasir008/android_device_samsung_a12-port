@@ -23,10 +23,12 @@ $(call inherit-product, device/realme/RMX2185/device.mk)
 
 # Inherit some common stuff.
 TARGET_BOOT_ANIMATION_RES := 720
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_FACE_UNLOCK_SUPPORTED := true
+CIPHER_MAINTAINER := TechyMinati
+$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_RMX2185
+PRODUCT_NAME := cipher_RMX2185
 PRODUCT_DEVICE := RMX2185
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G35 Series
