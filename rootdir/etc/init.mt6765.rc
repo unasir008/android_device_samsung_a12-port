@@ -118,6 +118,7 @@ on property:sys.boot_completed=1
     write /sys/block/sdc/queue/iostats 1
     write /sys/block/dm-0/queue/read_ahead_kb 128
     write /sys/block/dm-1/queue/read_ahead_kb 128
+    write /dev/stune/top-app/schedtune.boost 1
 
 service oppo_fingerprints_sh /vendor/bin/sh /vendor/bin/init.oppo.fingerprints.sh
     class main
