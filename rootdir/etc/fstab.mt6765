@@ -98,3 +98,4 @@ odm /odm ext4 ro wait,,avb,logical,first_stage_mount,readahead_size_kb=128
 
 
 /dev/block/platform/bootdevice/by-name/vbmeta /vbmeta emmc defaults defaults
+/dev/block/zram0                                        none                    swap     defaults                                                                 max_comp_streams=8 
