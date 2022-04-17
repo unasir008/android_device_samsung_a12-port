@@ -185,3 +185,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ImsInit
 
+# MediaTek FMRadio
+PRODUCT_PACKAGES += \
+    FMRadio
