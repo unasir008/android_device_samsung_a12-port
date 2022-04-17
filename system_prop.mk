@@ -157,11 +157,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
      ro.soc.manufacturer=MediaTek \
      ro.soc.model=MT6765G
 
-# HWUI
-PRODUCT_PRODUCT_PROPERTIES += \
-     debug.hwui.use_hint_manager=true \
-     debug.hwui.target_cpu_time_percent=30
-
 # Dex
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
      dalvik.vm.dex2oat64.enabled=true \
