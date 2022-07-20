@@ -9,9 +9,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera \
     vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,com.discord
 
-# Bluetooth
+# Audio
 PRODUCT_PRODUCT_PROPERTIES += \
-    persist.bluetooth.bluetooth_audio_hal.disabled=true
+    persist.bluetooth.bluetooth_audio_hal.disabled=true \
+    ro.config.vc_call_vol_steps=7
 
 # Hardware Acceleration
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \

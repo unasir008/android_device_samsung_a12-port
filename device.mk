@@ -134,6 +134,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# InCallService
+PRODUCT_PACKAGES += \
+    MtkInCallService
+
 # Screen density
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
