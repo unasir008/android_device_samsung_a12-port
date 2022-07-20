@@ -7,7 +7,7 @@ import android.content.Context;
 import android.util.Log;
 
 public class OnLockedBootCompleteReceiver extends BroadcastReceiver {
-    private static final String LOG_TAG = "MtkInCallService";
+    private static final String LOG_TAG = "MediatekInCallService";
 
     @Override
     public void onReceive(final Context context, Intent intent) {
