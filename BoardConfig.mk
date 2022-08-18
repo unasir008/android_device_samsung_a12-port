@@ -151,3 +151,6 @@ TARGET_SCREEN_DENSITY := 440
 
 # Mtk FM
 BOARD_HAVE_MTK_FM := true
+
+#System_ext Props
+TARGET_SYSTEM_EXT_PROP += $(DEVICE_PATH)/configs/props/system_ext.prop
