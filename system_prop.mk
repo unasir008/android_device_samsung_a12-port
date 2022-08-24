@@ -1,8 +1,8 @@
 # Blurs
 # PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-   # ro.surface_flinger.supports_background_blur=1
-   # ro.sf.blurs_are_expensive=1 \
-   # persist.sys.sf.disable_blurs=1
+  #  ro.surface_flinger.supports_background_blur=1
+  #  ro.sf.blurs_are_expensive=1 \
+  #  persist.sys.sf.disable_blurs=1
 
 # Camera
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -161,3 +161,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
      pm.dexopt.first-boot=quicken \
      dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5 \
      dalvik.vm.dex2oat-threads=6
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    persist.bluetooth.system_audio_hal.enabled=11
+
