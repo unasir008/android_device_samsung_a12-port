@@ -46,10 +46,6 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     messaging
 
-# Audio
-PRODUCT_PACKAGES += \
-    audio.a2dp.default
-
 # Extra VNDK Versions
 PRODUCT_EXTRA_VNDK_VERSIONS := 30
 
