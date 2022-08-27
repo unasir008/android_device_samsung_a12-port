@@ -11,7 +11,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Audio
 PRODUCT_PRODUCT_PROPERTIES += \
-    persist.bluetooth.bluetooth_audio_hal.disabled=true \
     ro.config.vc_call_vol_steps=7
 
 # Hardware Acceleration
