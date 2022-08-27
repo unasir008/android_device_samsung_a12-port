@@ -22,6 +22,9 @@ $(call inherit-product, vendor/realme/RMX2185/RMX2185-vendor.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
+
 # Parts
 $(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
 
