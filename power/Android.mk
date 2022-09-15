@@ -2,8 +2,8 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-# Default to the latest AIDL version
-TARGET_POWERHAL_AIDL_VERSION ?= 2
+# Default to the AIDL 1.0 implementation
+TARGET_POWERHAL_AIDL_VERSION ?= 1
 
 LOCAL_MODULE := android.hardware.power-service-mediatek
 LOCAL_VENDOR_MODULE := true
