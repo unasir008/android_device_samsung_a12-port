@@ -63,3 +63,4 @@ vendor/lib64/libdpframework.so:product/vendor_overlay/30/lib64/libdpframework.so
 
 # Power
 -vendor/lib64/libpowerhal.so:product/vendor_overlay/30/lib64/libpowerhal.so
+-vendor/lib/libpowerhal.so:product/vendor_overlay/30/lib/libpowerhal.so
