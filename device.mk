@@ -198,8 +198,7 @@ PRODUCT_PACKAGES += \
 
 # MediaTek FMRadio
 PRODUCT_PACKAGES += \
-    FMRadio \
-    androidx.window.extensions
+    FMRadio
 
 # Bluetooth Audio (System-side HAL, sysbta)
 PRODUCT_PACKAGES += \
