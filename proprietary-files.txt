@@ -23,6 +23,7 @@ lib64/libem_support_jni.so
 -priv-app/ImsService/ImsService.apk
 bin/vtservice
 etc/init/init.vtservice.rc
+etc/permissions/privapp-permissions-mediatek.xml
 framework/mediatek-ims-extension-plugin.jar
 framework/mediatek-ims-legacy.jar
 lib/libcomutils.so
@@ -33,7 +34,6 @@ lib/libimsma_socketwrapper.so
 lib/libmtk_vt_service.so
 lib/libmtk_vt_wrapper.so
 lib/libmtkavenhancements.so
-lib/libmtkperf_client.so
 lib/libsignal.so
 lib/libsink.so
 lib/libsource.so
