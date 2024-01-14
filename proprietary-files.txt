@@ -20,7 +20,7 @@ lib64/libem_support_jni.so
 -framework/mediatek-telecom-common.jar
 -framework/mediatek-telephony-base.jar
 -framework/mediatek-telephony-common.jar
--priv-app/ImsService/ImsService.apk
+-priv-app/ImsService/ImsService.apk|fd48e90f3e4dbd91367159fa1025945d5ca8f6fe
 bin/vtservice
 etc/init/init.vtservice.rc
 etc/permissions/privapp-permissions-mediatek.xml
