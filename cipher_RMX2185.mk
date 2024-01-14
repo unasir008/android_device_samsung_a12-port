@@ -23,11 +23,6 @@ $(call inherit-product, device/realme/RMX2185/device.mk)
 
 # Inherit some common stuff.
 TARGET_BOOT_ANIMATION_RES := 720
-TARGET_FACE_UNLOCK_SUPPORTED := true
-CIPHER_MAINTAINER := TechyMinati
-CIPHER_SCREEN := 6.47
-CIPHER_BATTERY := 5000
-
 $(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
