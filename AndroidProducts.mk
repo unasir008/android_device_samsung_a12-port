@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_RMX2185.mk
+    $(LOCAL_DIR)/lineage_a12.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_RMX2185-user \
-    cipher_RMX2185-userdebug \
-    cipher_RMX2185-eng
+    lineage_a12-user \
+    lineage_a12-userdebug \
+    lineage_a12-eng
