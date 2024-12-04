@@ -19,27 +19,27 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile
-$(call inherit-product, device/realme/RMX2185/device.mk)
+$(call inherit-product, device/samsung/a12/device.mk)
 
 # Inherit some common stuff.
 TARGET_BOOT_ANIMATION_RES := 720
-$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := cipher_RMX2185
-PRODUCT_DEVICE := RMX2185
-PRODUCT_BRAND := realme
-PRODUCT_MODEL := Realme G35 Series
-PRODUCT_MANUFACTURER := realme
+PRODUCT_NAME := lineage_a12
+PRODUCT_DEVICE := a12
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-A125F
+PRODUCT_MANUFACTURER := samsung
 
 # Build info
-BUILD_FINGERPRINT := "realme/RMX2185/RMX2185:11/RP1A.200720.011/1656996364941:user/release-keys"
+BUILD_FINGERPRINT := "samsung/a12nsxx/a12:12/SP1A.210812.016/A125FXXS4CWK1:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=RMX2185 \
     PRODUCT_NAME=RMX2185 \
-    PRIVATE_BUILD_DESC="sys_oplus_mssi_64_cn-user 11 RP1A.200720.011 1609743540423 release-keys"
+    PRIVATE_BUILD_DESC="a12nsxx-user 12 SP1A.210812.016 A125FXXS4CWK1 release-keys"
 
-PRODUCT_GMS_CLIENTID_BASE := android-realme
+PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
