@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX2185
+DEVICE_PATH := device/samsung/a12
 
 # Call proprietary blob setup
-$(call inherit-product, vendor/realme/RMX2185/RMX2185-vendor.mk)
+$(call inherit-product, vendor/samsung/a12/a12-vendor.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
